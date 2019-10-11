@@ -57,15 +57,15 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_movement, "basic-movement", "Movimiento");
+    fill_section(data_action, "basic-actions", "Acción");
+    fill_section(data_bonusaction, "basic-bonus-actions", "Acción adicional");
+    fill_section(data_reaction, "basic-reactions", "Reacción");
+    fill_section(data_condition, "basic-conditions", "Condición");
+    fill_section(data_environment_obscurance, "environment-obscurance", "Entorno");
+    fill_section(data_environment_light, "environment-light", "Entorno");
+    fill_section(data_environment_vision, "environment-vision", "Entorno");
+    fill_section(data_environment_cover, "environment-cover", "Entorno");
 
     var modal = document.getElementById("modal");
     modal.onclick = hide_modal;
